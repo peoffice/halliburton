@@ -324,6 +324,14 @@
     
     > ![vs_ut_project_in_command](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_project_in_command.png)
   * Run unit tests
+    * Open Test Explorer
+      > ![vs_ut_run_explorer](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_run_explorer.png)
+    * Run unit tests
+      > ![vs_ut_run_do](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_run_do.png)
+      
+      > You can see the unit tests that passed or failed in Test Explorer
+
+      > ![vs_ut_run_view](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_run_view.png)
 #### Java
 ## Samples
 ## CI 
