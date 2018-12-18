@@ -307,12 +307,22 @@
   * Create unit tests
     > Create unit tests and run them frequently to make sure your code is working properly
       * Create a unit test project.
-        > ![vs_ut_create_project](vs_ut_create_project.png)
+        > ![vs_ut_create_project](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_create_project.png)
       * Name your project
+        > ![vs_ut_name_project](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_name_project.png)
+        
+        > The project added to your solution.
+        
+        > ![vs_ut_project_in_solution](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_project_in_solution.png)
       * In the unit test project, add a reference to the project you want to test
+        > ![vs_ut_add_reference](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_add_reference.png)
       * Select the project that contains the code you'll test
+        > ![vs_ut_project_in_view](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_project_in_view.png)
       * Code your unit test.
+        > ![vs_ut_project_code](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_project_code.png)
     > You can also create unit test method stubs with the Create Unit Tests [**command**](https://docs.microsoft.com/en-us/visualstudio/test/create-unit-tests-menu?view=vs-2017)
+    
+    > ![vs_ut_project_in_command](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_project_in_command.png)
   * Run unit tests
 #### Java
 ## Samples
