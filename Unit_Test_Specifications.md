@@ -277,7 +277,7 @@
   > And perhaps most important: The use of unit tests forces the developers to think through their designs which in general improve code quality and API's.
 
 ## Unit Testing Frameworks
-#### GoogleTest for C&C++
+### **GoogleTest for C&C++**
 * Description
   > Google Test is a unit testing library for the C++ programming language, based on the xUnit architecture.[1] The library is released under the BSD 3-clause license.[2] It can be compiled for a variety of POSIX and Windows platforms, allowing unit-testing of C sources as well as C++ with minimal source modification. The tests themselves could be run one at a time, or even be called to run all at once. This makes the debugging process very specific and caters to the need of many programmers and coders alike.
 
@@ -286,16 +286,20 @@
 * WebSite https://github.com/google/googletest
 * Installation
   * Windows Installation
-    * Open the project file with vs2013 and build
+    * Open the project file with visual studio IDE and build
   * Linux
     * Suppose you put Google Test in directory ${GTEST_DIR)
     * ```g++ -isystem ${GTEST_DIR}/include -I${GTEST_DIR} -pthread -c ${GTEST_DIR}/src/gtest-all.cc```
     * ```ar -rv libgtest.a gtest-all.o```
+* Tutorial & Samples
+  * [A quick introduction to the Google C++ Testing Framework](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html)
+  * [Google Unit Test (GTest)](https://www.bogotobogo.com/cplusplus/google_unit_test_gtest.php)
+  * [Googletest Samples](https://github.com/google/googletest/blob/master/googletest/docs/samples.md)
   
-#### VisualStudio Testing Tools for C#
+### **VisualStudio Testing Tools for C#**
 * Description
   > Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
-    * The Test Explorer window makes it easy to integrate [**unit tests**](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-your-code?view=vs-2017) into your development practice. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.
+    * The Test Explorer window makes it easy to integrate [**unit tests**](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-your-code?view=vs-2017) into your development practice. You can use the Microsoft unit test fraework or one of several third-party and open source frameworks.
     * [**IntelliTest**](https://docs.microsoft.com/en-us/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest?view=vs-2017) automatically generates unit tests and test data for your managed code.
     * [**Code coverage**](https://docs.microsoft.com/en-us/visualstudio/test/using-code-coverage-to-determine-how-much-code-is-being-tested?view=vs-2017) determines what proportion of your project's code is actually being tested by coded tests such as unit tests.
     * [**Microsoft Fakes**](https://docs.microsoft.com/en-us/visualstudio/test/isolating-code-under-test-with-microsoft-fakes?view=vs-2017) help you isolate the code you are testing by replacing other parts of the application with stubs or shims.
@@ -332,8 +336,32 @@
       > You can see the unit tests that passed or failed in Test Explorer
 
       > ![vs_ut_run_view](https://github.com/peoffice/halliburton/blob/master/png/vs_ut_run_view.png)
-#### Java
-## Samples
+  * Tutorial & Samples
+    * [Unit test your code](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-your-code?view=vs-2017)
+    * [Create a Unit Test for an MVC module](https://www.dnnsoftware.com/docs/developers/mvc-modules/mvc-module-unittest.html)
+
+### **Junit Framework for Java by Maven**
+* Add dependency of junit framework(eg.Junit 4)
+  ```
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+  </dependency>
+  ``` 
+* Write unit tests
+* Run unit tests
+  * Run tests from the IDE
+    * Eclipse
+      > ![eclipse_run_test](https://github.com/peoffice/halliburton/blob/master/png/eclipse_run_test.png)
+    * IntelliJ
+      > ![intej_run_test](https://github.com/peoffice/halliburton/blob/master/png/intej_run_test.png)
+  * Run tests by maven
+  * Tutorial & Samples
+    * [JUnit 4 Tutorial](https://howtodoinjava.com/junit-4/)
+    * [JUnit 5 Tutorial](https://howtodoinjava.com/junit-5-tutorial/)
+
 ## CI 
 ## Reference
 * 单元测试整理
@@ -357,7 +385,7 @@
 * [编写单元测试的良好准则](https://www.awaimai.com/2379.html/amp)
 * [单元测试的基本准则](https://blog.csdn.net/hou549135295/article/details/51384042)
 * [19条技巧教你更好的编写单元测试](http://www.techug.com/post/19-unit-test-code-tips.html)
-* [**Unit Testing Guidelines**](https://petroware.no/unittesting.html)
+* [Unit Testing Guidelines](https://petroware.no/unittesting.html)
 * [浅谈测试驱动开发（TDD）](https://www.ibm.com/developerworks/cn/linux/l-tdd/)
 * [JUnit best practices:Techniques for building resilient, relocatable, multithreaded JUnit tests](https://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html)
 * [Unit testing guidelines](https://pylonsproject.org/community-unit-testing-guidelines.html)
@@ -365,3 +393,11 @@
 * [googletest - github](https://github.com/google/googletest)
 * [Google Test - wikipedia](https://en.wikipedia.org/wiki/Google_Test)
 * [Testing tools in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/test/improve-code-quality?view=vs-2017)
+* [Unit testing frameworks in C#: Comparing XUnit, NUnit and Visual Studio](https://raygun.com/blog/unit-testing-frameworks-c/)
+* [JUnit Tutorial: Setting Up, Writing, and Running Java Unit Tests](https://blog.parasoft.com/junit-tutorial-setting-up-writing-and-running-java-unit-tests)
+* [JUnit best practices](https://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html)
+* [JUnit Best Practices](https://examples.javacodegeeks.com/core-java/junit/junit-best-practices/)
+* [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
+* [Installing Google Test For Linux](https://github.com/iat-cener/tonatiuh/wiki/Installing-Google-Test-For-Linux)
+* [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
+* [VSTest](https://github.com/Microsoft/vstest)
