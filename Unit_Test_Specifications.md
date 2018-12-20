@@ -401,3 +401,6 @@
 * [Installing Google Test For Linux](https://github.com/iat-cener/tonatiuh/wiki/Installing-Google-Test-For-Linux)
 * [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 * [VSTest](https://github.com/Microsoft/vstest)
+* [Unit Testing in the Development Phase of the CI/CD Pipeline](https://www.mabl.com/blog/unit-testing-in-the-development-phase-of-the-cicd-pipeline)
+* [Unit Testing](https://wiki.genexus.com/commwiki/servlet/wiki?38334,Unit+Testing,)
+* [Overview of Database Unit Testing](https://docs.microsoft.com/en-us/previous-versions/aa833233(v=vs.80))
